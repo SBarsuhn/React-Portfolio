@@ -41,7 +41,7 @@ li {
   
 }
 
-.card {
+.card, .form-card {
   display: inline-block;
   margin:25px;
   background-color:rgba(18, 25, 43, 0.685);
@@ -52,8 +52,33 @@ li {
   --border: 5px;
   border-radius: calc(var(--radius) + var(--border));
   font-weight: bolder;
+}
 
+.form-card {
+  padding-top: 30px;
+}
+
+.form-input {
+  width:80%;
+  height: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #3a496e;
+  border-style: solid;
+  border-color: aliceblue;
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.form-input::placeholder {
+  color: aliceblue;
   
+}
+
+.form-mes {
+  height: 300px;
 }
 
 
@@ -72,12 +97,13 @@ li {
   font-weight: bolder;
 }
 
-.site-but {
+.site-but, .submit {
+  width:150px;
   background-color: #3a496e;
   color:aliceblue;
   font-weight: bolder;
   border-radius: 20px;
-  width:max-content;
+  /* width:max-content; */
   margin: 10px;
   padding: 20px;
   border-style:solid;
@@ -85,6 +111,10 @@ li {
   top: 300px;
   position:relative;
   overflow: hidden;
+}
+
+.submit{
+  top: 20px;
 }
 
 .site-but::before {
@@ -98,7 +128,22 @@ li {
   opacity: 0.8;
   top: -70px;
   transition: 0.4s;
-  transform: rotate(20deg) translateX(-60px);
+  transform: rotate(20deg) translateX(-70px);
+
+}
+
+.submit::before {
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 20px;
+  background-color:aliceblue;
+  box-shadow: 0 0 10px #fff;
+  filter: blur(1px);
+  opacity: 0.8;
+  top: -70px;
+  transition: 0.4s;
+  transform: rotate(20deg) translateX(-80px);
 
 }
 
@@ -106,6 +151,9 @@ li {
   transform: rotate(20deg) translate(140px, 50px);
 }
 
+.submit:hover:before {
+  transform: rotate(20deg) translate(140px, 50px);
+}
 
 /* 
 .App-logo {

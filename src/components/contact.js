@@ -33,7 +33,7 @@ const Contact = () => {
       // Exits out of this code block if something is wrong
       return;
     }
-    alert(`Hello ${userName}`);
+    alert(`Thanks for contacting me, ${userName}!`);
 
     // Clears the input after it is sent
     setUserName('');
@@ -43,36 +43,37 @@ const Contact = () => {
 
   return (
     <div>
-      <p>Hello {userName}</p>
+      <div className='form-card'>
       <form className="form">
-        <input
+        <input className='form-input'
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="EMAIL"
         />
-        <input
+        <input className='form-input'
           value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
+          placeholder="NAME"
         />
-        <input
+        <input className='form-input form-mes'
           value={message}
           name="message"
           onChange={handleInputChange}
           type="message"
-          placeholder="message"
+          placeholder="MESSAGE"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button className='submit' type="button" onClick={handleFormSubmit}>SEND</button>
       </form>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      </div>
     </div>
   );
 }
