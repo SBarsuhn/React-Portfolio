@@ -1,7 +1,113 @@
+:root {
+  background-image: url(./images/Animated\ Shape\ \(1\).svg);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120%;
+    overflow: hidden;
+}
+
 .App {
   text-align: center;
 }
 
+.navbar {
+  /* background-color: rgb(255, 102, 0); */
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  margin: 25px;
+  font-weight: bolder;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.header {
+  font-weight: bolder;
+  color: white;
+
+}
+
+.card-container {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  
+}
+
+.card {
+  display: inline-block;
+  margin:25px;
+  background-color:rgba(18, 25, 43, 0.685);
+  color: aliceblue;
+  width: 500px;
+  height:600px;
+  --radius: 15px;
+  --border: 5px;
+  border-radius: calc(var(--radius) + var(--border));
+  font-weight: bolder;
+
+  
+}
+
+
+
+.card-title {
+  display: flex;
+  background-color:#3a496e;
+  color: aliceblue;
+  margin: var(--border);
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.site-but {
+  background-color: #3a496e;
+  color:aliceblue;
+  font-weight: bolder;
+  border-radius: 20px;
+  width:max-content;
+  margin: 10px;
+  padding: 20px;
+  border-style:solid;
+  border-color: aliceblue;
+  top: 300px;
+  position:relative;
+  overflow: hidden;
+}
+
+.site-but::before {
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 20px;
+  background-color:aliceblue;
+  box-shadow: 0 0 10px #fff;
+  filter: blur(1px);
+  opacity: 0.8;
+  top: -70px;
+  transition: 0.4s;
+  transform: rotate(20deg) translateX(-60px);
+
+}
+
+.site-but:hover:before {
+  transform: rotate(20deg) translate(140px, 50px);
+}
+
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +141,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
