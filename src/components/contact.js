@@ -28,8 +28,8 @@ const Contact = () => {
     e.preventDefault();
 
     // Checks to see if the email is valid or if the userName is empty and sends an error message
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email is invalid');
+    if (!validateEmail(email) || !userName || !message) {
+      setErrorMessage('Email is invalid or field is missing');
       // Exits out of this code block if something is wrong
       return;
     }

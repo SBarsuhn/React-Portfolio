@@ -41,21 +41,30 @@ li {
   
 }
 
-.card, .form-card {
+.card, .form-card, .about-card {
   display: inline-block;
   margin:25px;
   background-color:rgba(18, 25, 43, 0.685);
   color: aliceblue;
   width: 500px;
-  height:600px;
+  height:300px;
   --radius: 15px;
   --border: 5px;
   border-radius: calc(var(--radius) + var(--border));
   font-weight: bolder;
 }
 
+.about-card {
+  width: 60%;
+  height: fit-content;
+  font-size: large;
+  padding: 20px;
+  line-height: 2;
+}
+
 .form-card {
   padding-top: 30px;
+  height:600px;
 }
 
 .form-input {
@@ -108,7 +117,7 @@ li {
   padding: 20px;
   border-style:solid;
   border-color: aliceblue;
-  top: 300px;
+  /* top: 300px; */
   position:relative;
   overflow: hidden;
 }
@@ -153,6 +162,23 @@ li {
 
 .submit:hover:before {
   transform: rotate(20deg) translate(140px, 50px);
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position:5px 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: aliceblue;
+  box-shadow: 0 0 10px #fff;
+  background-color: #12192b;
+  transition: 0.3s;
+}
+
+.avatar:hover {
+  box-shadow: 0 0 30px #fff;
 }
 
 /* 

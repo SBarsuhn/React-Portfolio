@@ -1,11 +1,10 @@
 import React from "react";
 import Project from "./project";
-import {Link} from 'react-router-dom'
 const Portfolio = () => {
   const myProjects = [
     {
       title: "BROK(ER) EXCHANGE",
-      image: "../src/images/Broker-exchange-image.png",
+      image: 'PUT AN IMAGE HERE',
       description: "Broker exchange is a community based app that would allow the exchange of good and services without money involved to help those in need that couldn’t afford the monetary expense necessary to receive help. ",
       url: "https://github.com/SBarsuhn/Broker-Exchange",
     },
@@ -21,6 +20,25 @@ const Portfolio = () => {
       description: "This is a description",
       url: "put a url here",
     },
+    {
+      title: "project 4",
+      image: "put a url here",
+      description: "This is a description",
+      url: "put a url here",
+    },
+    {
+      title: "project 5",
+      image: "put a url here",
+      description: "This is a description",
+      url: "put a url here",
+    },
+    {
+      title: "project 6",
+      image: "put a url here",
+      description: "This is a description",
+      url: "put a url here",
+    },
+    
   ];
 
   return (
