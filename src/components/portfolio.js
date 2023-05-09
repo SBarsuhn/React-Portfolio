@@ -4,7 +4,7 @@ const Portfolio = () => {
   const myProjects = [
     {
       title: "BROK(ER) EXCHANGE",
-      image: 'PUT AN IMAGE HERE',
+      image: require ('../images/Broker-exchange-image.png'),
       description: "Broker exchange is a community based app that would allow the exchange of good and services without money involved to help those in need that couldn’t afford the monetary expense necessary to receive help. ",
       url: "https://github.com/SBarsuhn/Broker-Exchange",
     },

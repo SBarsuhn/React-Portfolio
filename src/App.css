@@ -90,7 +90,9 @@ li {
   height: 300px;
 }
 
-
+.card-image {
+  height: 100px;
+}
 
 .card-title {
   display: flex;

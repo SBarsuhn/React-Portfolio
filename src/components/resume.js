@@ -1,9 +1,10 @@
 import React from 'react';
+import image from '../images/Broker-exchange-image.png'
 
 const Resume = () => {
   return (
     <div className="item">
-     <h2>ResumePAGE</h2>
+      <a href={image} download>DOWNLOAD HERE</a>
     </div>
   );
 };
