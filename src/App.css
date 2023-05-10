@@ -17,6 +17,16 @@
   color: white;
 }
 
+.highlight {
+  text-shadow: 0 0 30px #fff;
+  color: white;
+  cursor: default;
+  text-decoration: none;
+
+}
+
+
+
 li {
   display: inline-block;
   margin: 25px;
@@ -182,6 +192,8 @@ li {
 .avatar:hover {
   box-shadow: 0 0 30px #fff;
 }
+
+
 
 /* 
 .App-logo {
