@@ -1,4 +1,5 @@
 import React from 'react';
+// sets the html of the footer
 const Footer = () => {
   return (
     <div className="item">

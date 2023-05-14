@@ -8,7 +8,7 @@ import Portfolio from './components/portfolio'
 import Resume from './components/resume'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
+// Sets up the routing for the site for example when the url ends with /portfolio it will import Portfolio into the page
 function App() {
   return (
     <div className="App">

@@ -1,5 +1,5 @@
 import React from "react";
-
+// sets the html of the cards that are seen on the portfolio page
 const Project = (props) => {
   return (
     <div className="item">

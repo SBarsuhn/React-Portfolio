@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+    // Prevents the page from refreshing when submitting the form
     e.preventDefault();
 
     // Checks to see if the email is valid or if the userName is empty and sends an error message
@@ -40,7 +40,7 @@ const Contact = () => {
     setMessage('');
     setEmail('');
   };
-
+// creates the html for the form and sets the type of each field
   return (
     <div>
       <div className='form-card'>

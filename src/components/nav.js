@@ -1,8 +1,10 @@
 import React from 'react';
 import {Link, NavLink, useLocation} from 'react-router-dom'
 const Nav = () => {
+  // This is used so the app knows what page the user is on so it can add the highlight class to the navbar
   let location = useLocation()
   console.log(location)
+  // sets the html of the footer
   return (
     <div className="navbar">
      <ul>

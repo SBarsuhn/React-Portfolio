@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "./project";
 const Portfolio = () => {
+  // The app will cycle through each project and make a card to put the information on
   const myProjects = [
     {
       title: "BROK(ER) EXCHANGE",
@@ -40,7 +41,7 @@ const Portfolio = () => {
     },
     
   ];
-
+// // sets the html of the project cards
   return (
     <div className="card-container">
       

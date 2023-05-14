@@ -1,6 +1,7 @@
 import React from 'react';
 import avatar from '../images/avatar.png'
 const Home = () => {
+  // sets the html of the homepage
   return (
     <div className="item">
       <div>
