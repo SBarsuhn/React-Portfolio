@@ -21,12 +21,17 @@
 
 ## INSTALLATION
 
-- There are no steps to install in this case. Just go to the website. If you want to view it locally you can download the files from GitHub and open a terminal in VScode. From there type "npm i" into the terminal to download the dependencies. After it is done downloading type "npm start" into the terminal and a local version of the site will open in your default browser.
+- There are no steps to install in this case. Just go to the website. If you want to view it locally you can download the files from GitHub and open a terminal in VScode. From there type "npm i" into the terminal to download the dependencies. After it is done downloading type "npm start" into the terminal and a local version of the site will open in your default browser. [You can view the deployed site here](https://sbarsuhn-react-portfolio.herokuapp.com)
 
 
 ## USAGE
 
 - Click through the site using the navbar at the top. You can click on the buttons on the "portfolio" page to view the projects , you can also click the buttons in the footer to view my socials, you can download my resume on the "resume" page, and finally you can download the website to be stored locally using the download button in the URL bar of your browser.
+
+![HOMEPAGE](./src/images/homepage.png)
+![PORTFOLIO](./src/images/portfolio.png)
+![CONTACT](./src/images/contact.png)
+![RESUME](./src/images/resume.png)
 
 ## LICENSE
 
