@@ -1,5 +1,7 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Intro from './components/intro'
 import Contact from './components/contact'
 import Footer from './components/footer'
 import Header from './components/header'
@@ -16,6 +18,7 @@ function App() {
       <Header></Header>
       <Routes>
       <Route path = '/' element = {<Home />} />
+      <Route path = '/intro' element = {<Intro />} />
       <Route path = '/portfolio' element = {<Portfolio />} />
       <Route path = '/contact' element = {<Contact />} />
       <Route path = '/resume' element = {<Resume />} />
