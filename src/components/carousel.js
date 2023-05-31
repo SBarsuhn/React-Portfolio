@@ -15,28 +15,28 @@ export const Carousel = () => {
     },
     {
       title: "BROK(ER) EXCHANGE",
-      image: require("../images/bonatics.png"),
+      image: require("../images/broker-exchange.png"),
       description:
         "Broker exchange is a community based app that would allow the exchange of good and services without money involved to help those in need that couldn’t afford the monetary expense necessary to receive help. ",
       url: "https://github.com/SBarsuhn/Broker-Exchange",
     },
     {
       title: "Crypto Converter",
-      image: require("../images/bonatics.png"),
+      image: require("../images/wwwcccpng.png"),
       description:
         "This project is a simple web application that will allow users to see the worth of grocery items in crypto-currency. Simply type in a gorcery item to see its current coversion to some of the most popular crypto currencies",
       url: "https://sbarsuhn.github.io/Willy-Wonkas-Whimsical-Cryptocurrency-Converter/",
     },
     {
       title: "Weather Dashboard",
-      image: require("../images/bonatics.png"),
+      image: require("../images/weather-dash.png"),
       description:
         "This website is a weather dashboard that will give you the current temperature and weather conditions along with a five day forcast so you can prepare for the week. It also saves your recent searches for convenience",
       url: "https://sbarsuhn.github.io/Weather-Dashboard/",
     },
     {
       title: "Javascript Quiz",
-      image: require("../images/bonatics.png"),
+      image: require("../images/jsq.png"),
       description:
         "This project is a 'quiz' made with javascript. The point of the game is to answer as many questions as possible in the allotted time. All of the answers are given to you so try testing your accuracy and reaction time and go for a high score.",
       url: "https://sbarsuhn.github.io/Javascript-Quiz/",
