@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <div className="navbar">
      <ul>
-       <li><NavLink className={location.pathname === "/" ? "highlight" : "navbar"} to = '/'>ABOUT ME</NavLink></li>
+       <li><NavLink className={location.pathname === "/home" ? "highlight" : "navbar"} to = '/home'>ABOUT ME</NavLink></li>
        <li><NavLink className={location.pathname === "/portfolio" ? "highlight" : "navbar"} to = '/portfolio'>PORTFOLIO</NavLink></li>
        <li><NavLink className={location.pathname === "/contact" ? "highlight" : "navbar"} to = '/contact'>CONTACT</NavLink></li>
        <li><NavLink className={location.pathname === "/resume" ? "highlight" : "navbar"} to = '/resume'>RESUME</NavLink></li>

@@ -69,7 +69,7 @@ const ImageTrack = () => {
     <img className="image" src={H} draggable="false" />
     <img className="image" src={N} draggable="false" />
     
-    <button className="continue"><Link to = '/'><span className="material-symbols-outlined">
+    <button className="continue"><Link to = '/home'><span className="material-symbols-outlined">
 arrow_forward_ios
 </span></Link></button>
 </div>

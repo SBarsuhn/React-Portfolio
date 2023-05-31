@@ -1,9 +1,10 @@
 :root {
-  background-image: url(./images/Animated\ Shape\ \(1\).svg);
+  /* background-image: url(./images/Animated\ Shape\ \(1\).svg); */
+  background-image: url(./images/newBG.svg);
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 120%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -52,7 +53,7 @@ li {
   align-items: center;
   height: fit-content;
   /* width: 50vw; */
-  background-color: rgba(18, 25, 43, 0.685) ;
+  background-color: rgba(43, 18, 18, 0.485) ;
 }
 
 
@@ -97,7 +98,7 @@ li {
 .button-arrow, .indicator-buttons {
   background: none;
   border: none;
-  color: aliceblue;
+  color: white;
   font-size: 24px;
   cursor: pointer
 }
@@ -111,8 +112,8 @@ li {
 .form-card, .about-card {
   display: inline-block;
   margin:25px;
-  background-color:rgba(18, 25, 43, 0.685);
-  color: aliceblue;
+  background-color:rgba(43, 18, 18, 0.485);
+  color: white;
   width: 250px;
   height:550px;
   --radius: 15px;
@@ -143,15 +144,15 @@ li {
   margin: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #3a496e;
+  background-color: #6e3a3a;
   border-style: solid;
-  border-color: aliceblue;
-  color: aliceblue;
+  border-color: white;
+  color: white;
   font-weight: bolder;
 }
 
 .form-input::placeholder {
-  color: aliceblue;
+  color: white;
   
 }
 
@@ -165,8 +166,8 @@ li {
 
 /* .card-title {
   display: flex;
-  background-color:#3a496e;
-  color: aliceblue;
+  background-color:#6e3a3a;
+  color: white;
   margin: var(--border);
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
@@ -179,14 +180,14 @@ li {
 
 .site-but, .submit, .download {
   width:150px;
-  background-color: #3a496e;
-  color:aliceblue;
+  background-color: #6e3a3a;
+  color:white;
   font-weight: bolder;
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
   border-style:solid;
-  border-color: aliceblue;
+  border-color: white;
   position:relative;
   overflow: hidden;
 }
@@ -202,7 +203,7 @@ li {
   position: absolute;
   height: 200px;
   width: 20px;
-  background-color:aliceblue;
+  background-color:white;
   box-shadow: 0 0 10px #fff;
   filter: blur(1px);
   opacity: 0.8;
@@ -217,7 +218,7 @@ li {
   position: absolute;
   height: 200px;
   width: 20px;
-  background-color:aliceblue;
+  background-color:white;
   box-shadow: 0 0 10px #fff;
   filter: blur(1px);
   opacity: 0.8;
@@ -232,7 +233,7 @@ li {
   position: absolute;
   height: 200px;
   width: 20px;
-  background-color:aliceblue;
+  background-color:white;
   box-shadow: 0 0 10px #fff;
   filter: blur(1px);
   opacity: 0.8;
@@ -260,14 +261,14 @@ li {
   object-position:5px 10px;
   border-radius: 50%;
   border-style: solid;
-  border-color: aliceblue;
+  border-color: white;
   box-shadow: 0 0 10px #fff;
-  background-color: #12192b;
+  background-color: #2b1212;
   transition: 0.3s;
 }
 
 span {
-  color: aliceblue;
+  color: white;
 }
 
 .resume {
@@ -293,11 +294,11 @@ span {
   width: 30px;
   padding: 25px;
   text-decoration: none;
-  color: aliceblue;
+  color: white;
 }
 
 .footer-img:hover {
-  color: #3a496e;
+  color: #6e3a3a;
 transform: scale(1.3) rotate(360deg);
 }
 
@@ -329,7 +330,7 @@ transform: scale(1.3) rotate(360deg);
 }
 
 .black {
-  background-color: black;
+  background-color: #161616;
   position:absolute;
   top: 0%;
   height: 100vh;
@@ -338,14 +339,14 @@ transform: scale(1.3) rotate(360deg);
 
 .continue{
   border-color: transparent;
-  color: aliceblue;
+  color: white;
   background-color: transparent;
   font-size: 100px;
   transition: 0.25s ease-in-out;
 }
 
 .continue:hover {
-  color: black;
+  color: #161616;
   background-color: transparent;
   text-shadow: 0px 0px rgb(255, 255, 255);
   transform: scale(1.2);
