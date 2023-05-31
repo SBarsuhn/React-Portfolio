@@ -38,16 +38,10 @@ export const Carousel = () => {
       title: "Javascript Quiz",
       image: require("../images/bonatics.png"),
       description:
-        "This project is a 'quiz' made with javascript. The buttons will tell you what the correct answer is so the key to getting a good score is accuracy and a quick reaction time.",
+        "This project is a 'quiz' made with javascript. The point of the game is to answer as many questions as possible in the allotted time. All of the answers are given to you so try testing your accuracy and reaction time and go for a high score.",
       url: "https://sbarsuhn.github.io/Javascript-Quiz/",
     },
-    {
-      title: "Social Network API",
-      image: require("../images/bonatics.png"),
-      description:
-        "This applications works as a small scale social network. It lets users create profiles where they can post, add reactions to posts, and add other users to their friends list. ",
-      url: "https://github.com/SBarsuhn/Social-Network-API",
-    },
+    
   ];
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
@@ -100,6 +94,6 @@ arrow_forward_ios
 </span>
             </button>
         </div>
-    </div>
+        </div>
   );
 };

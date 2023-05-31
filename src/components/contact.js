@@ -42,9 +42,10 @@ const Contact = () => {
   };
 // creates the html for the form and sets the type of each field
   return (
-    <div>
+    <div className='center'>
       <div className='form-card'>
       <form className="form">
+        <div className='form-title'>CONTACT ME</div>
         <input className='form-input'
           value={email}
           name="email"
