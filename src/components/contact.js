@@ -60,13 +60,15 @@ const Contact = () => {
           type="text"
           placeholder="NAME"
         />
-        <input className='form-input form-mes'
+        
+        <textarea  className='form-input form-mes'
           value={message}
           name="message"
           onChange={handleInputChange}
           type="message"
           placeholder="MESSAGE"
         />
+        
         <button className='submit' type="button" onClick={handleFormSubmit}>SEND</button>
       </form>
       {errorMessage && (
