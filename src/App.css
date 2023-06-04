@@ -12,6 +12,7 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     height: 100vh;
+    /* overflow: hidden; */
   }
   
   .navbar {
@@ -472,6 +473,30 @@ transform: scale(1.3) rotate(360deg);
       width: 20px;
       padding: 15px;
     }
+
+    .portfolio {
+      margin-top: 30px;
+    }
+
+    .carousel{
+      width: 350px;
+    }
+    
+    .carousel-title {
+      padding-top: 15px;
+      height:25px;
+      font-size: 14px;
+    }
+    
+    .carousel-image {
+      height:150px;
+    }
+    
+    .carousel-item{
+      height: 500px;
+    }
+
+
     
   }
 
@@ -509,5 +534,46 @@ transform: scale(1.3) rotate(360deg);
       width: 15px;
       padding: 15px;
     }
+
+    .portfolio {
+      margin-top: 0px;
+    }
+
+    .carousel{
+      width: 250px;
+    }
+
+    .carousel-title {
+      padding-top: 15px;
+      height:25px;
+      font-size: 14px;
+    }
     
+    .carousel-image {
+      height:100px;
+    }
+
+    .carousel-item{
+      height: 400px;
+    }
+
+    .carousel-desc{
+      margin: 15px 0 15px 0;
+      padding: 0 10px 0 10px;
+      white-space: normal;
+      font-size: 12px;
+ 
+    }
+
+    .indicator-buttons {
+      display: none;
+    }
+
+  
+  }
+
+  @media only screen and (max-width: 360px) {
+    .carousel{
+      width: 300px;
+    }
   }
