@@ -493,7 +493,7 @@ transform: scale(1.3) rotate(360deg);
   
     .about-card {
       font-weight: normal;
-      line-height: 2;
+      line-height: 1.75;
       font-size: 12px;
       /* width: 75%; */
     }

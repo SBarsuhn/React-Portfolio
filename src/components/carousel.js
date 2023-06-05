@@ -24,14 +24,14 @@ export const Carousel = () => {
       title: "Crypto Converter",
       image: require("../images/wwwcccpng.png"),
       description:
-        "This project is a simple web application that will allow users to see the worth of grocery items in crypto-currency. Simply type in a gorcery item to see its current coversion to some of the most popular crypto currencies",
+        "This project is a simple web application that will allow users to see the worth of grocery items in crypto-currency. Simply type in a gorcery item to see its current coversion to some of the most popular crypto currencies.",
       url: "https://sbarsuhn.github.io/Willy-Wonkas-Whimsical-Cryptocurrency-Converter/",
     },
     {
       title: "Weather Dashboard",
       image: require("../images/weather-dash.png"),
       description:
-        "This website is a weather dashboard that will give you the current temperature and weather conditions along with a five day forcast so you can prepare for the week. It also saves your recent searches for convenience",
+        "This website is a weather dashboard that will give you the current temperature and weather conditions along with a five day forcast so you can prepare for the week. It also saves your recent searches for convenience.",
       url: "https://sbarsuhn.github.io/Weather-Dashboard/",
     },
     {
