@@ -478,8 +478,22 @@ transform: scale(1.3) rotate(360deg);
       margin-top: 30px;
     }
 
-    .carousel{
+    .carousel, .form-card, .res-cont{
       width: 350px;
+      
+    }
+
+    .form-card, .form, .res-cont {
+      height: 550px;
+    }
+
+    .form-input {
+      height: 30px;
+    }
+
+    .form-mes {
+      height: 200px;
+      margin-bottom: 20px;
     }
     
     .carousel-title {
@@ -489,13 +503,21 @@ transform: scale(1.3) rotate(360deg);
     }
     
     .carousel-image {
-      height:150px;
+      height:125px;
     }
     
     .carousel-item{
-      height: 500px;
+      height: 450px;
     }
 
+    .carousel-desc {
+      margin: 10px 0 15px 0;
+    }
+
+    .resume {
+      width: 275px;
+      margin-bottom: 10px;
+    }
 
     
   }
@@ -506,7 +528,9 @@ transform: scale(1.3) rotate(360deg);
     margin-bottom: 0px;
   }
 
-
+ul {
+  margin-top: 0px;
+}
 
   .highlight {
     font-size: 10px;
@@ -539,8 +563,21 @@ transform: scale(1.3) rotate(360deg);
       margin-top: 0px;
     }
 
-    .carousel{
+    .carousel, .form-card, .res-cont {
       width: 250px;
+    }
+
+    .form-card, .form, .res-cont {
+      height: 450px;
+    }
+    
+    .form-input {
+      height: 25px;
+    }
+
+    .form-mes {
+      height: 150px;
+      margin-bottom: 0px;
     }
 
     .carousel-title {
@@ -560,7 +597,6 @@ transform: scale(1.3) rotate(360deg);
     .carousel-desc{
       margin: 15px 0 15px 0;
       padding: 0 10px 0 10px;
-      white-space: normal;
       font-size: 12px;
  
     }
@@ -569,11 +605,15 @@ transform: scale(1.3) rotate(360deg);
       display: none;
     }
 
+    .resume {
+      width:200px;
+      margin-bottom: 10px;
+    }
   
   }
 
   @media only screen and (max-width: 360px) {
-    .carousel{
+    .carousel, .form-card{
       width: 300px;
     }
   }
