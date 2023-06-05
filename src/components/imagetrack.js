@@ -7,6 +7,8 @@ import S from '../images/S.svg'
 import U from '../images/U.svg'
 import H from '../images/H.svg'
 import N from '../images/N.svg'
+import Pointer from './pointer'
+import { motion, AnimatePresence  } from "framer-motion"
 
 
 
@@ -56,11 +58,14 @@ const ImageTrack = () => {
         if (!ignore)  trackSlider()
         return () => { ignore = true; }
         },[]);
-    
-
-    return (
-        <div className="black">
+     
+            
+            return (
+              <div className="black">
         <div id="imagetrack" className="imagetrack" data-mouse-down-at="0" data-prev-percentage="0">
+            <motion.div className='pointer'>
+              <Pointer key='pointer' />
+          </motion.div>
             <img className="image" src={B} draggable="false" />
     <img className="image" src={A} draggable="false" />
     <img className="image" src={R} draggable="false" />
@@ -68,12 +73,12 @@ const ImageTrack = () => {
     <img className="image" src={U} draggable="false" />
     <img className="image" src={H} draggable="false" />
     <img className="image" src={N} draggable="false" />
-    
     <button className="continue"><Link to = '/home'><span className="material-symbols-outlined">
 arrow_forward_ios
 </span></Link></button>
 </div>
 </div>
+
     )
 }
 

@@ -349,7 +349,13 @@ transform: scale(1.3) rotate(360deg);
 
 
 
-
+.pointer {
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  align-self: center;
+  
+}
 
 
 .image {
@@ -409,6 +415,24 @@ transform: scale(1.3) rotate(360deg);
     width: 95%;
     font-size: 20px;
   }
+
+  .header {
+    margin-bottom: 0px;
+  }
+
+  ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-card {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 545px) {
@@ -422,12 +446,18 @@ transform: scale(1.3) rotate(360deg);
     font-size:12px;
   }
 
+  ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .avatar {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
   }
 
   .about-card {
+    margin-top: 10px;
     font-weight: normal;
     line-height: normal;
     font-size: 15px;
@@ -457,8 +487,8 @@ transform: scale(1.3) rotate(360deg);
     }
   
     .avatar {
-      width: 100px;
-      height: 100px;
+      width: 75px;
+      height: 75px;
     }
   
     .about-card {
@@ -532,6 +562,11 @@ ul {
   margin-top: 0px;
 }
 
+li {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
   .highlight {
     font-size: 10px;
   }
@@ -542,14 +577,15 @@ ul {
     }
   
     .avatar {
-      width: 100px;
-      height: 100px;
+      width: 75px;
+      height: 75px;
     }
   
     .about-card {
       font-weight: normal;
       line-height: 1.5;
       font-size: 12px;
+      padding: 10px;
       /* width: 75%; */
     }
   
