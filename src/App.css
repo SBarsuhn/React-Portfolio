@@ -405,9 +405,6 @@ transform: scale(1.3) rotate(360deg);
 }
 
 @media only screen and (max-width: 920px) {
-  .App {
-    margin-top: 10px;
-  }
 
   .about-card {
     width: 75%;
@@ -422,7 +419,7 @@ transform: scale(1.3) rotate(360deg);
   }
 
   .header {
-    margin-top: 35px;
+    margin-top: 30px;
     margin-bottom: 0px;
   }
 
@@ -443,7 +440,7 @@ transform: scale(1.3) rotate(360deg);
 
 @media only screen and (max-width: 545px) {
 .header {
-  margin-top: 25px;
+  margin-top: 20px;
   font-size: 24px;
   margin-bottom: 0px;
 }
