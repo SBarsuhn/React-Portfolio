@@ -1,7 +1,7 @@
 :root {
   /* background-image: url(./images/Animated\ Shape\ \(1\).svg); */
   background-image: url(./images/newBG.svg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
