@@ -1,5 +1,7 @@
 import React from 'react';
-import image from '../images/Rectangle@2x-2-3.png'
+import resume from '../../src/Resume.pdf'
+import image from '../images/resume/Resume1024_1.png'
+
 // sets the html of the resume page
 const Resume = () => {
   return (
@@ -8,7 +10,7 @@ const Resume = () => {
       <div>
       <img className='resume' src={image} alt='resume' />
     </div>
-      <a href={image} download><button className='download'>DOWNLOAD</button></a>
+      <a targe='blank' href={resume} download><button className='download'>DOWNLOAD</button></a>
     </div>
     </div>
   );
