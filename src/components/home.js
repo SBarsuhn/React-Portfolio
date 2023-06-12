@@ -9,11 +9,10 @@ const Home = () => {
      <div className='card-container'>
      <div className='about-card'>
       <div className='about'>
-        My name is Sam Barsuhn and I am a recent graduate of the University of Minnesota's coding bootcamp.
-        I have been interested in coding for as long as I can remember although it was just recently that I decided to put in the work to actually learn how to do it.
-        Since that day I have fallen in love with coding and despite many moments of frustration I have continued to enjoy the learning experience and I plan to continue to expand my knowledge. 
-        Before I started coding I worked in the Minnesota Conservation Corps, that involved everything from the removal of invasive plant species and tree felling to wildland firefighting.
-        Currently I work in the service industry but I hope to break into web developement in the coming months as I continue to enhance my skills.</div>
+      I am a recent graduate of the University of Minnesota's coding bootcamp. 
+      I greatly enjoyed the intensive  learning experience and plan to continue expanding my technical skills and knowledge. 
+      Prior to my coding experience and education, I spent a year working in the Minnesota Conservation Corps, which involved everything from the removal of invasive plant species to tree felling to wildland firefighting. 
+      Currently I work in the service industry as an assistant manager. I am ready to grow in my web development abilities and enhance my skills, I wish to join a positive and supportive team where I can work hard, gain experience and contribute to shared goals.</div>
       <h2>Technical Skills</h2>
       <div>
         JavaScript, 
