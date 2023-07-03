@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../images/avatar.png'
+import avatar from '../images/SAM-AV.png'
 const Home = () => {
   // sets the html of the homepage
   return (
