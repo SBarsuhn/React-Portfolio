@@ -35,11 +35,11 @@ export const Carousel = () => {
       url: "https://sbarsuhn.github.io/Weather-Dashboard/",
     },
     {
-      title: "Javascript Quiz",
-      image: require("../images/jsq.png"),
+      title: "Warframe World State",
+      image: require("../images/WWSA.png"),
       description:
-        "This project is a 'quiz' made with javascript. The point of the game is to answer as many questions as possible in the allotted time. All of the answers are given to you so try testing your accuracy and reaction time and go for a high score.",
-      url: "https://sbarsuhn.github.io/Javascript-Quiz/",
+        "This project is a a simple application made to be used in conjunction with the videogame, Warframe. It pulls information from the game's API to help the user spend their time more effectively and take advantage of active events.",
+      url: "https://grannyswwsa-fcfabe190297.herokuapp.com",
     },
     
   ];
